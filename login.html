@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    <%- title %>
+    login
   </title>
   <link rel="stylesheet" href="./assets/style/all.css">
 
@@ -64,7 +64,35 @@
     </div>
   </nav>
   <!-- navbar結束 -->
-  <%- contents %>
+  
+<div class="container mt-9 mt-md-12 mb-12 mb-md-13">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+            <img class="login-img w-100"   src="./assets/images/login1.jpg" alt="">
+        </div>
+        <div class="col-12 col-md-4">
+            <h2>Log in</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="user-account">帳號</label>
+                    <input type="text" class="form-control" id="user-account" aria-describedby="user-account" placeholder="email@example.com" required="">
+                   
+                  </div>
+                  <div class="form-group">
+                    <label for="user-password">密碼</label>
+                    <input type="password" class="form-control" id="user-password" placeholder="Password" required="">
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="#" class="text-primary mt-4">忘記密碼</a>
+                    <div class="mt-4">
+                      <button type="button" class="btn btn-outline-primary mr-2">註冊</button>
+                      <button type="submit" class="btn btn-primary">登入</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+    </div>
+</div>
     <footer class="bg-primary py-4 ">
       <div class="container-fluild container-lg  d-flex justify-content-between align-items-center">
         <h3 class="mb-0"><a href="#"><img src="./assets/images/d’Perfumewhite.png" alt="footer logo"></a></h3>

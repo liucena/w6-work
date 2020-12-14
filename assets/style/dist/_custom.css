@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6, p a, span {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, dl {
+  margin-bottom: 0;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-btn {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.custom-btn:hover {
+  opacity: 0.8;
+  color: #000;
+  background-color: #fff;
+}
+
+.card-img {
+  height: 555px;
+}
+
+.custom-btn2 {
+  border: 2px solid #000;
+}
+
+.custom-btn2:hover {
+  opacity: 0.8;
+  color: #000;
+  background-color: yellow;
+}
+
+.card-img2 {
+  height: 1080px;
+}
