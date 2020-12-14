@@ -1,0 +1,19 @@
+.logo a{
+    display:block;
+    background: url(../images/d’Perfume.png) no-repeat;
+    width: 128px;
+      height: 38px;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+  .navbar-light .navbar-nav .nav-link{ 
+    @media (max-width: 768px){
+        background:#707070;
+        color: #ffff;
+        border-bottom: 1px solid #ffff; 
+      &:hover{
+          background: red;
+      }
+    }
+ }

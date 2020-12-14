@@ -1,0 +1,96 @@
+h1,h2,h3,h4,h5,h6,p a,span{
+  line-height: 1.5;
+   } 
+
+h1,h2,h3,h4,h5,h6,p, ul, dl {
+  margin-bottom: 0;
+}
+
+ul,ol {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+$font-size-base:1rem;
+.text{
+    &-s{
+      font-size: $font-size-base*0.875;//14px
+    }
+  &-m{
+    font-size: $font-size-base;//16px
+  }
+  &-l{
+    font-size: $font-size-base*1.25;//20px
+   
+  }
+  &-2xl{
+    font-size: $font-size-base*1.5;//24px 
+  }
+  &-3xl{
+    font-size: $font-size-base*1.75;//28px
+  }
+  &-4xl{
+    font-size: $font-size-base*2;//32px
+    
+  }
+  &-5xl{
+    font-size: $font-size-base*2.5;//40px
+  }
+  }
+  
+  @include media-breakpoint-up(md) {
+    .text{
+      &-md-s{
+        font-size: $font-size-base*0.875;//14px
+      }
+    &-md-m{
+      font-size: $font-size-base;//16px
+    }
+    &-md-l{
+      font-size: $font-size-base*1.25;//20px
+     
+    }
+    &-md-2xl{
+      font-size: $font-size-base*1.5;//24px 
+    }
+    &-md-3xl{
+      font-size: $font-size-base*1.75;//28px
+    }
+    &-md-4xl{
+      font-size: $font-size-base*2;//32px
+      
+    }
+    &-md-5xl{
+      font-size: $font-size-base*2.5;//40px
+    }
+  }
+  .position-md-relative{
+    position: relative;
+  }
+  .position-md-absolute{
+    position: absolute;
+  }
+  .right-md-0{
+    right: 0;
+  }
+  }
+  .border-bottom-black{ 
+    border-bottom: 1px solid #818A91;
+  }
+  .border-bottom-primary{
+    border-bottom: 2px solid #916000;
+  }
+  .border-2{ 
+    border:2px solid #916000;
+  }
+  .shopping-number{
+    border: 2px solid  #916000,
+  }
+
