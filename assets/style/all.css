@@ -9846,13 +9846,17 @@ a.text-dark:hover, a.text-dark:focus {
   overflow: hidden;
   white-space: nowrap; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-light .navbar-nav .nav-link {
     background: #707070;
     color: #ffff;
     border-bottom: 1px solid #ffff; }
     .navbar-light .navbar-nav .nav-link:hover {
       background: red; } }
+
+.nav-hover:hover {
+  color: yellow !important;
+  text-decoration: none; }
 
 .banner {
   height: 480px;
@@ -9865,23 +9869,6 @@ a.text-dark:hover, a.text-dark:focus {
       height: 870px;
       background-position: center;
       background-size: cover; } }
-
-h1, h2, h3, h4, h5, h6, p a, span {
-  line-height: 1.5; }
-
-h1, h2, h3, h4, h5, h6, p, ul, dl {
-  margin-bottom: 0; }
-
-ul, ol {
-  list-style: none;
-  padding-left: 0; }
-
-img {
-  max-width: 100%;
-  height: auto; }
-
-.line-through {
-  text-decoration: line-through; }
 
 .text-s {
   font-size: 0.875rem; }
@@ -9918,13 +9905,33 @@ img {
   .text-md-4xl {
     font-size: 2rem; }
   .text-md-5xl {
-    font-size: 2.5rem; }
-  .position-md-relative {
-    position: relative; }
-  .position-md-absolute {
-    position: absolute; }
-  .right-md-0 {
-    right: 0; } }
+    font-size: 2.5rem; } }
+
+h1, h2, h3, h4, h5, h6, p a, span {
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6, p, ul, dl {
+  margin-bottom: 0; }
+
+ul, ol {
+  list-style: none;
+  padding-left: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.line-through {
+  text-decoration: line-through; }
+
+.position-md-relative {
+  position: relative; }
+
+.position-md-absolute {
+  position: absolute; }
+
+.right-md-0 {
+  right: 0; }
 
 .border-bottom-black {
   border-bottom: 1px solid #818A91; }
@@ -9937,6 +9944,10 @@ img {
 
 .shopping-number {
   border: 2px solid #916000; }
+
+.badge-pill {
+  top: -5px;
+  right: -15px; }
 
 .custom-btn {
   color: #fff;
@@ -9966,9 +9977,15 @@ img {
     .square-img {
       height: 1080px; } }
 
+.card-header {
+  padding: 0 0; }
+
 @media (min-width: 768px) {
   .card-header-img {
     height: 540px; } }
+
+.card-body {
+  padding: 0 0; }
 
 .card-cover {
   position: relative; }
@@ -10000,7 +10017,7 @@ img {
   background-position: center center;
   padding-top: 312px; }
 
-.shape-card img {
+.shape-card {
   width: 255px;
   height: 255px; }
 
@@ -10014,24 +10031,8 @@ img {
          object-position: center center;
       height: 730px; } }
 
-.card-cover:before {
-  content: 'Sold out';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #fff;
-  font-size: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+.hover-custom:hover {
+  text-decoration: none;
+  color: yellow !important; }
 
 /*# sourceMappingURL=all.css.map */
