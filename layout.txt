@@ -8,7 +8,7 @@
       white-space: nowrap;
   }
   .navbar-light .navbar-nav .nav-link{ 
-    @media (max-width: 767px){
+    @media (max-width: 768px){
         background:#707070;
         color: #ffff;
         border-bottom: 1px solid #ffff; 
@@ -17,8 +17,3 @@
       }
     }
  }
- .nav-hover:hover{
- color:yellow!important;
- text-decoration: none; 
- }
- 

@@ -1,4 +1,8 @@
 
+.badge-pill{
+  top: -5px;
+  right: -15px;
+}
   .custom-btn{
     color: #fff;
     background-color: transparent;
@@ -30,11 +34,17 @@
       height: 1080px;
   }
 }
+.card-header{
+  padding: 0 0;
+}
 .card-header-img{
     @include media-breakpoint-up(md) {
         height: 540px;
        
     }
+}
+.card-body{
+  padding: 0 0;
 }
 .card-cover{
     position: relative;
@@ -61,12 +71,11 @@
     padding-top: 312px;
 }
 
-
-.shape-card img{
+.shape-card {
   width: 255px;
   height: 255px;
 }
-  
+
 
 .login-img{
   height: auto;
@@ -75,4 +84,8 @@
   object-position: center center;
   height: 730px;
 }
+}
+.hover-custom:hover{
+  text-decoration: none;
+  color: yellow!important;
 }

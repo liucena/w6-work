@@ -70,32 +70,35 @@ current: index
 <!-- navbar結束 -->
 <div class="container-fluild px-4 mb-9 mb-md-11">
     <div class="row">
-        <div class="col-md-2 order-1 order-md-1 ">
-            <ul class="d-flex flex-md-column justify-content-between align-items-md-center mb-9 mt-10">
-                <h2 class="text-gray-dark text-l mb-md-7 d-none d-md-block">會員中心</h2>
-                <li class="mb-md-6 "><a class="text-gray-dark border-bottom-primary" href="#">會員資料修改</a></li>
-                <li class="mb-md-6  "><a class="text-gray-dark" href="#">訂單查詢</a></li>
+        <div class="col-lg-2 order-1 ">
+            <h2 class="text-gray-dark text-l mb-md-7 d-none d-lg-block text-center">會員中心</h2>
+            <ul class="d-flex flex-lg-column 
+            justify-content-around
+            justify-content-lg-between align-items-md-center mb-9 mt-10 mt-lg-0">
+
+                <li class="mb-lg-6 "><a class="text-gray-dark border-bottom-primary" href="#">會員資料修改</a></li>
+                <li class="mb-lg-6  "><a class="text-gray-dark" href="#">訂單查詢</a></li>
                 <li><a class="text-gray-dark" href="#">退／換貨申請</a></li>
             </ul>
         </div>
         <!--會員左側選單結束 -->
-        <div class="col-md-7 order-3 order-md-2">
+        <div class="col-lg-7 order-3 order-lg-2">
 
             <h3 class="text-m border-bottom-black  font-weight-bold  pb-md-4 mb-5">個人資料修改</h3>
             <form class="mb-10" action="">
                 <div class="form-group row no-gutters">
                     <label for="
                     account-number" class=" col-3 col-md-2 col-form-label">會員帳號</label>
-                    <div class="col-9 col-md-7">
-                        <input type="text" readonly="" class="form-control-plaintext" id="account-number"
-                            value="email@example.com">
-                    </div>
+
+                    <input type="text" readonly="" class="form-control-plaintext col-9 col-md-7" id="account-number"
+                        value="email@example.com">
+
                 </div>
                 <div class="form-group row no-gutters ">
                     <label for="name" class="col-3 col-md-2  col-form-label">會員姓名</label>
-                    <div class="col-9 col-md-7">
-                        <input type="text" class="form-control" id="name">
-                    </div>
+
+                    <input type="text" class="form-control col-9 col-md-7" id="name">
+
                 </div>
                 <div class="form-group row no-gutters">
                     <label for="sex" class="col-3 col-md-2 col-form-label">會員性別</label>
@@ -108,15 +111,15 @@ current: index
                 </div>
                 <div class="form-group row no-gutters">
                     <label for="email" class="col-3 col-md-2 col-form-label">電子信箱</label>
-                    <div class=" col-9 col-md-7">
-                        <input type="email" class="form-control" id="email" placeholder="email@example.com">
-                    </div>
+
+                    <input type="email" class="form-control col-9 col-md-7" id="email" placeholder="email@example.com">
+
                 </div>
                 <div class="form-group row no-gutters">
                     <label for="phone" class="col-3 col-md-2 col-form-label">手機號碼</label>
-                    <div class=" col-9 col-md-7">
-                        <input type="phone" class="form-control" id="phone">
-                    </div>
+
+                    <input type="phone" class="form-control col-9 col-md-7" id="phone">
+
                 </div>
                 <div class="form-group row no-gutters">
                     <label for="country" class="col-3 col-md-2 col-form-label">聯絡地址</label>
@@ -201,64 +204,66 @@ current: index
                                 <input type="text" class="form-control" placeholder="請輸入地址">
                             </div>
                         </div>
-                            <button class="btn btn-primary rounded px-12" type="submit">確定修改</button>
+                        <button class="btn btn-primary rounded px-12" type="submit">確定修改</button>
                     </div>
                 </div>
             </form>
             <h3 class="text-m border-bottom-black  font-weight-bold  pb-md-4 mb-5">修改密碼</h3>
-            <form class="password-form mb-md-11">
+            <form class="password-form mb-11">
 
                 <div class="form-group row  no-gutters">
                     <label for="old-password" class="col-3 col-md-2 col-form-label">舊密碼</label>
-                    <div class="col-9 col-md-7 ">
-                        <input type="password" class="form-control" id="old-password" required="">
-                    </div>
+
+                    <input type="password" class="form-control col-9 col-md-7" id="old-password" required="">
+
                 </div>
 
                 <div class="form-group row  no-gutters ">
                     <label for="new-password" class="col-3 col-md-2 col-form-label">新密碼</label>
-                    <div class=" col-9 col-md-7">
-                        <input type="password" class="form-control js-new" id="new-password" required="">
-                    </div>
+
+                    <input type="password" class="form-control js-new col-9 col-md-7" id="new-password" required="">
+
                 </div>
                 <div class="form-group row  no-gutters mb-0">
                     <label for="check-password" class="col-3 col-md-2 col-form-label">確認密碼</label>
-                    <div class="col-9 col-md-7">
-                        <input type="password" class="form-control mb-5 " id="check-password" required="">
-                        <button class="btn btn-primary rounded px-12 " type="submit">變更密碼</button>
 
-                    </div>
+                    <input type="password" class="form-control mb-5 col-9 col-md-7 " id="check-password" required="">
+
+
+
+
                 </div>
+                <button class="btn btn-primary rounded px-12 offset-3 offset-md-2 " type="submit">變更密碼</button>
             </form>
         </div>
 
-        <div class=" col-md-3 order-1 order-md-2 mb-11">
-            <h2 class="text-m text-gray mb-7"><span class="material-icons text-black mr-1 align-bottom">
-                    person
-                </span>會員編碼<span class="text-md text-gray text-l ml-1">T00020080615</span></h2>
-            <ul class="text-gray">
-                <li class="row  mb-5">
-                    <p class="col-4 col-md-4">購物車</p>
-                    <p class="col-8 col-md-8">56</p>
-                </li>
-                <li class="row   mb-5">
-                    <p class="col-4 col-md-4 ">我的收藏</p>
-                    <p class="col-8  col-md-8 ">23</p>
-                </li>
-                <li class="row   mb-5">
-                    <p class="col-4 col-md-4 ">完成訂單</p>
-                    <p class="col-8  col-md-8 ">8</p>
-                </li>
-                <li class="row mb-5">
-                    <p class="col-4 col-md-4 ">會員紅利</p>
-                    <p class="col-8  col-md-8  ">2680</p>
-                </li>
-                <li class="row  ">
-                    <p class="col-4 col-md-4 ">邀請碼</p>
-                    <p class="col-8  col-md-8  ">TK2075</p>
-                    <p class=" text-s text-gray-light ">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
-                </li>
-            </ul>
-        </div>
+            <div class=" col-lg-3 order-1 order-lg-3 mb-11">
+                <h2 class="text-m text-gray mb-7"><span class="material-icons text-black mr-1 align-bottom">
+                        person
+                    </span>會員編碼<span class="text-md text-gray text-l ml-1">T00020080615</span></h2>
+                <ul class="text-gray">
+                    <li class="row  mb-5">
+                        <p class="col-4 col-md-4">購物車</p>
+                        <p class="col-8 col-md-8">56</p>
+                    </li>
+                    <li class="row   mb-5">
+                        <p class="col-4 col-md-4 ">我的收藏</p>
+                        <p class="col-8  col-md-8 ">23</p>
+                    </li>
+                    <li class="row   mb-5">
+                        <p class="col-4 col-md-4 ">完成訂單</p>
+                        <p class="col-8  col-md-8 ">8</p>
+                    </li>
+                    <li class="row mb-5">
+                        <p class="col-4 col-md-4 ">會員紅利</p>
+                        <p class="col-8  col-md-8  ">2680</p>
+                    </li>
+                    <li class="row  ">
+                        <p class="col-4 col-md-4 ">邀請碼</p>
+                        <p class="col-8  col-md-8  ">TK2075</p>
+                        <p class=" text-s text-gray-light ">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
+                    </li>
+                </ul>
+            </div> 
     </div>
 </div>

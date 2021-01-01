@@ -32,9 +32,28 @@
 /* bs4 元件end */
 @import "./layout";
 @import "./banner";
-@import "./utill/size";
-@import "./base";
-@import "./custom";
-@import"./card";
 
-
+/*fz size*/
+.text{
+  &-s{
+    font-size: $font-size-base*0.875;//14px
+  }
+&-m{
+  font-size: $font-size-base;//16px
+}
+&-l{
+  font-size: $font-size-base*1.25;//20px
+}
+&-2xl{
+  font-size: $font-size-base*1.5;//24px
+}
+&-3xl{
+  font-size: $font-size-base*1.75;//28px
+}
+&-4xl{
+  font-size: $font-size-base*2;//32px
+}
+&-5xl{
+  font-size: $font-size-base*2.5;//40px
+}
+}
